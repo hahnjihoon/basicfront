@@ -32,3 +32,21 @@
   font-size: 18px;
   line-height: 1.6;
 }
+
+.home__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  margin-top: 24px;
+  border-radius: 8px;
+  background: #0f766e;
+  padding: 0 18px;
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.home__button:hover {
+  background: #0b5f59;
+}

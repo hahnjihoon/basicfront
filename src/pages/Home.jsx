@@ -6,7 +6,10 @@ export default function Home() {
       <section className="home__panel">
         <p className="home__label">React Frontend</p>
         <h1 className="home__title">basicfront</h1>
-        <p className="home__description">기본 React 프로젝트가 준비되었습니다.</p>
+        <p className="home__description">Frontend home is ready.</p>
+        <a className="home__button" href="/users">
+          사용자 목록
+        </a>
       </section>
     </main>
   );
